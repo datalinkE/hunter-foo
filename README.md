@@ -16,6 +16,6 @@ You will need a quite new CMake installed and working cpp compiler. Then just do
     export HUNTER_ROOT=<path>
     git clone <repo>
     sh ./build.sh
-... and CMake will detect your environment, download/build external libraries under HUNTER_ROOT dir, create IDE or Makefile project under _build dir.
+... and CMake will detect your environment, download/build external libraries under HUNTER_ROOT dir, create IDE or Makefile project under _builds dir.
 
 Enjoy!

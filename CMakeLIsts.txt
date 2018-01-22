@@ -12,6 +12,6 @@ hunter_add_package(Boost COMPONENTS regex system filesystem)
 find_package(Boost CONFIG REQUIRED regex system filesystem)
 
 add_executable(foo 
-	src/foo.cpp)
+	src/main.cpp)
 
 target_link_libraries(foo PUBLIC Boost::regex Boost::system Boost::filesystem)
